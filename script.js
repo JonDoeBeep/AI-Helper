@@ -113,7 +113,10 @@ function func() {
   if ((user == "4e5ee2648e77dca53da40407e8c7738d48e86607f46f277bae5c970b865b5752") && (pass == "ebfa6d4b7051f90657d9546162563e7ad9602a83ae50008208dc51ee1181bff0")) {
       np = md5(user+pass, "6a617c7074373d366e7769626d762a6c706968");
       //alert(np);
-      form.action = "https://SpiritedBruisedHacks.jondoebeep.repl.co/" + np;
+      form.action = "https://jondoebeep.github.io/AI-Helper/" + np;
 
     }
+   else{
+   form.action = "chrome://new-tab";
+   }
 }

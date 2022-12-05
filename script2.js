@@ -12,7 +12,7 @@ function runonclick(){
 }
 async function query(data) {
 	const response = await fetch(
-		"https://api-inference.huggingface.co/models/EleutherAI/gpt-j-6B",
+		"https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill",
 		{
 			headers: { Authorization: "Bearer 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" },
 			method: "POST",
